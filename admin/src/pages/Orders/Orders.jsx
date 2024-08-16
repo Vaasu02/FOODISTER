@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 import {assets} from '../../assets/assets'
 
 const Orders = () => {
-  const url="http://localhost:3000";
+  const url="https://fodisterbackend.onrender.com";
   const[orders,setOrders]=useState([]);
   
 
